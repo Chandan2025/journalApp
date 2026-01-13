@@ -1,0 +1,28 @@
+spring:
+  redis:
+    uri: ${REDIS_URI}
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ${MONGO_DATABASE}
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_USERNAME}
+    password: ${EMAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+weather:
+  api:
+    key: ${WEATHER_API_KEY}
+
+cohere:
+  api:
+    key: ${COHERE_API_KEY}
