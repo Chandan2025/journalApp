@@ -60,7 +60,7 @@ This project helped me learn:
 
 All of this happens securely in the backend without exposing any sensitive information.
 
----
+```text
 
 ## Project Structure (Simplified)
 
