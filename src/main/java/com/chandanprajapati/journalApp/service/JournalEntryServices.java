@@ -1,5 +1,4 @@
 package com.chandanprajapati.journalApp.service;
-import com.chandanprajapati.journalApp.Enum.Sentiment;
 import com.chandanprajapati.journalApp.entity.Journalentry;
 import com.chandanprajapati.journalApp.entity.User;
 import com.chandanprajapati.journalApp.repository.JournalEntryRepository;
